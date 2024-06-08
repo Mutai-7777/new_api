@@ -1,0 +1,78 @@
+
+
+
+  ###all users
+  
+ GET http://localhost:8000/restrauntowner
+
+
+
+
+###insert a new user
+ POST http://localhost:8000/city
+  Content-Type: application/json
+  Accept: application/json
+
+   {
+     
+      "name": "fivestar",
+    "street_address": "343",
+    "zip_code": 459,
+    "city_id": 7,
+    "menu_item": "nnii",
+    "orders":72,
+    "city":"naivasha",
+    "restraunt_owner": "bob"
+    
+   }
+
+### update
+ PUT http://localhost:8000/restraunts/4
+  Content-Type: application/json
+  Accept: application/json
+
+  {
+     
+  
+    "car_make": "BMW",
+    "car_model": "WRs",
+    "car_year": 2000,
+    "user_id": 235
+  
+   }
+
+  
+
+  
+### delete
+ DELETE  http://localhost:8000/restraunts/3
+
+
+###insert restraunts
+
+  POST http://localhost:8000/driver
+  Content-Type: application/json
+  Accept: application/json
+
+  {
+     "car_make": "BMW",
+    "car_model": "WRs",
+    "car_year": 2000,
+    "user_id": 235
+  
+
+  }
+
+###update restraunts
+
+PUT   http://localhost:8000/restraunts/
+  Content-Type: application/json
+  Accept: application/json
+
+  {
+    
+  }
+
+
+ 
+
